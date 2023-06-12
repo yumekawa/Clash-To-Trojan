@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<servlet>
+		<servlet-name>SelectTrojan</servlet-name>
+		<servlet-class>AllTrojan.SelectTrojan</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelectTrojan</servlet-name>
+		<url-pattern>/SelectTrojan</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UpdateTrojan</servlet-name>
+		<servlet-class>AllTrojan.UpdateTrojan</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateTrojan</servlet-name>
+		<url-pattern>/UpdateTrojan</url-pattern>
+	</servlet-mapping>
+		<servlet>
+		<servlet-name>DelTrojan</servlet-name>
+		<servlet-class>AllTrojan.DelTrojan</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DelTrojan</servlet-name>
+		<url-pattern>/DelTrojan</url-pattern>
+	</servlet-mapping>
+</web-app>
